@@ -1,4 +1,4 @@
-if SHIELD_ABACUS
+if SHIELD_ABACUSREV2
 
 config ZMK_KEYBOARD_NAME
     default "AbacusRev2"
