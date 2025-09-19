@@ -1,2 +1,0 @@
-config SHIELD_ABACUSREV2
-    def_bool $(shields_list_contains,abacusrev2)
