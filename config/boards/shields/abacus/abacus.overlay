@@ -4,7 +4,6 @@
     chosen {
         zmk,kscan = &kscan0;
         zmk,matrix_transform = &default_transform;
-        zmk,battery = &vddh;
     };
 
     kscan0: kscan_0 {
@@ -84,10 +83,6 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3)                 RC(3,6)         RC(3,8) RC(3,9) 
         sensors = <&encoder>;
     };
 
-    vddh: vddh {
-        compatible = "zmk,battery-nrf-vddh";
-        status = "okay";
-        label = "VDDH_BATTERY";
     };
 
     adc {
